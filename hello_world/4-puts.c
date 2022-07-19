@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * "Programming is like building a multilingual puzzle
   * main - Entry point
   *
   * Return: Always 0

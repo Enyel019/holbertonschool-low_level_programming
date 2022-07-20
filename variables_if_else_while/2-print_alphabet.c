@@ -13,6 +13,7 @@
 int main(void)
 {
 	int l;
+
 	for (l = 97; l <= 122; l++)
 		putchar(l);
 	putchar('\n');

@@ -14,10 +14,9 @@ int main(void)
 {
 	int letra = 97;
 
-	while (letra < 124)
+	for (letra <= 123; letra++)
 		putchar(letra);
 	putchar('\n');
-	letra = ((letra + 1));
 	return (0);
 }
 

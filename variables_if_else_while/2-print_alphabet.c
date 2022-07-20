@@ -12,12 +12,10 @@
 
 int main(void)
 {
-	int letra = 97;
-
-	for (letra <= 123)
-		putchar(letra);
+	int l = 97;
+	for (l <= 122, l++)
+		putchar(l);
 	putchar('\n');
-	letra = (letra++)
 	return (0);
 }
 

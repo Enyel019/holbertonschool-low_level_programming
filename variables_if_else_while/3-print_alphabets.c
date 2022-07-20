@@ -16,8 +16,11 @@ int main(void)
 	int a;
 
 	for (l = 97; l <= 122; l++)
-		putchar(l);
+	putchar(l);
+
 	for (a = 65; a <= 90; a++)
-		putchar(a);
+	putchar(a);
+
 	putchar('\n');
 	return (0);
+	}

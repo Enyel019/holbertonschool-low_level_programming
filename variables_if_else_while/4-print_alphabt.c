@@ -1,4 +1,7 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
  * main-hold all the code
  * followed by a new line.

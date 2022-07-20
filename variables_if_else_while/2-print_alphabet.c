@@ -14,9 +14,10 @@ int main(void)
 {
 	int letra = 97;
 
-	for (letra <= 123; letra++)
+	for (letra <= 123)
 		putchar(letra);
 	putchar('\n');
+	letra = (letra++)
 	return (0);
 }
 

@@ -9,13 +9,12 @@
  * You can only use putchar three times in your code
  * Return: Always 0
  */
-
 int main(void)
 {
 	int x;
 	int y;
-	for (x = 0; x <= 9; x++)
 
+	for (x = 0; x <= 9; x++)
 {
 	putchar(x);
 }

@@ -16,9 +16,9 @@ int main(void)
 int x;
 int y;
 
-for (x = 0; x <= 9; x++)
-putchar(x + 0);
-for (y = 97; y <= 102; y++)
+for (x = '0'; x <= '9'; x++)
+putchar(x + '0');
+for (y = '97'; y <= '102'; y++)
 putchar(y);
 putchar('\n');
 return (0);

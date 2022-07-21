@@ -9,19 +9,19 @@
  * You can only use putchar three times in your code
  * Return: Always 0
  */
+
 int main(void)
 {
-	int x;
-	int y;
-
-	for (x = 0; x <= 9; x++)
+int x;
+int y;
+for (x = 0; x <= 9; x++)
 {
-	putchar(x);
+putchar(x);
 }
-	for (y = 97; y <= 102; y++)
+for (y = a; y <= f; y++)
 {
-	putchar(y);
+putchar(y);
 }
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }

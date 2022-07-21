@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main-hold all the code
  * Description:Write a program that prints all the numbers
@@ -14,14 +15,11 @@ int main(void)
 {
 int x;
 int y;
+
 for (x = 0; x <= 9; x++)
-{
 putchar(x);
-}
 for (y = 97; y <= 102; y++)
-{
 putchar(y);
-}
 putchar('\n');
 return (0);
 }

@@ -17,7 +17,7 @@ int y;
 
 for (x = 0; x <= 9; x++)
 putchar(x);
-for (y = 97; y <= 101; y++)
+for (y = 'a'; y <= 'f'; y++)
 putchar(y);
 putchar('\n');
 return (0);

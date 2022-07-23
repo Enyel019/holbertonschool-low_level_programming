@@ -29,7 +29,7 @@ int main(void)
 		for (y = x + 1; y < 58; y++)
 		{
 			putchar(x);
-			putchar(x);
+			putchar(y);
 			if ((x + y) < ('8' + '9'))
 			{
 				putchar(',');

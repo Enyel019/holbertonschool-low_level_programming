@@ -14,7 +14,7 @@ int main(void)
 	char enyel[] = "_putchar";
 	int x;
 
-	for (x = 0; x <= 7777777; x++)
+	for (x = 0; x <= 7; x++)
 
 {
 	putchar(*(enyel + x));

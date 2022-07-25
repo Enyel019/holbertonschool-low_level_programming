@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "enyel.h"
+#include "main.h"
 
 /**
  * main- Hold all the code

@@ -6,28 +6,50 @@
  * Return: nothing
  */
 
-void times_table(void)
-{
-	int x;
-	int y;
-	int z = 0;
+int x, y, z, k;
+x = 0;
+y = 0;
+z = 0;
+k = 0;
 
 	for (x = 0; x < 10; x++)
 	{
 		for (y = 0; y < 11; y++)
 		{
-			z = x * y;
+			z = y * k;
+			if (z >= 0 && z <= 9)
 			{
-				if (z >= 9)
+				if (y == 0)
+					_putchar(z + '0');
+				else if (y == 10)
+				{
+					_putchar('\n');
+					k++;
+				}
+				else
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar(z / 10 + '0');
-					_putchar(z % 10 + '0');
-					_putchar('\n');
-
+					_putchar(' ');
+					_putchar(z + '0');
 				}
 			}
+			else if (z >= 10)
+			{
+				if (y == 10)
+				{
+					_putchar('\n');
+					k++;
+				}
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar((z / 10) + '0');
+					_putchar((z % 10) + '0');
+				}
+			}
+
 		}
 	}
 }

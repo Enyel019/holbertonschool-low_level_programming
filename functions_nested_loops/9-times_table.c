@@ -1,16 +1,12 @@
 #include "main.h"
-
 /**
  * times_table - function that prints the 9 times table, starting with 0.
- *
  * Return: nothing
  */
-
-int x, y, z, k;
-x = 0;
-y = 0;
-z = 0;
-k = 0;
+void times_table(void)
+{
+	int x, y, z;
+	int k = 0;
 
 	for (x = 0; x < 10; x++)
 	{
@@ -49,8 +45,6 @@ k = 0;
 					_putchar((z % 10) + '0');
 				}
 			}
-
 		}
 	}
 }
-

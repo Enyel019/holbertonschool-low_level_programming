@@ -5,7 +5,11 @@
 /**
  * _strlen - a function that returns the length of a string
  * @s:the string whose length to return
+<<<<<<< HEAD
  * Return :  the length of the string
+=======
+ * Return: the length of the string
+>>>>>>> 4001faded5345fdd33790aaee11782818afab4c8
  */
 
 

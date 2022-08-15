@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _atoi - unction that convert a string to an integer
+ *_atoi - Write a function that convert a string to an integer.
  * @s: string variable
- * Return : Always 0
+ *  Return: Always 0
  */
 
 int _atoi(char *s)

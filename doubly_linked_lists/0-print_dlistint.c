@@ -5,18 +5,15 @@
  * @h: head of the linked list
  * Return: Returns the number of nodes printed
  */
-
 size_t print_dlistint(const dlistint_t *h)
-
 {
-    size_t print = 0;
+	size_t printed = 0;
 
-    while (h)
-    {
-        printf("%d\n", h->n);
-        print++;
-        h = h->next;
-    }
-    return (print);
-
+	while (h)
+	{
+		printf("%i\n", h->n);
+		printed++;
+		h = h->next;
+	}
+	return (printed);
 }

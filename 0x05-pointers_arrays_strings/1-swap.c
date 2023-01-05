@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "sort.h"
 
 /**
  * swap_int - function that swaps the values of two integers
@@ -7,6 +8,7 @@
  * @b:interger values
  * Return: Always 0
  */
+
 
 void swap_int(int *a, int *b)
 {

@@ -9,6 +9,7 @@
  * @array : begining of the array to be searched
  * Return: index of number if found
  */
+
 int linear_search(int *array, size_t size, int value)
 {
 	size_t c = 0;
